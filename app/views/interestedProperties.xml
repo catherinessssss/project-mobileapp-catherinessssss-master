@@ -1,0 +1,11 @@
+<Alloy>
+	<Collection src="cm_property"></Collection>
+	<Window class="container" id="interested" title="Interest Property">
+		<ListView onItemclick="itemClicked1"> 
+		    <ListSection layout="vertical" dataCollection="cm_property" dataFilter="dataFilter1">
+		        <ListItem class="item_row" image="{imageUrl}" title="{title}" itemId="{id}">
+		        </ListItem>
+		    </ListSection>
+	    </ListView>
+	</Window>
+</Alloy>

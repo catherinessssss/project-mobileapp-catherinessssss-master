@@ -1,0 +1,34 @@
+
+".container" : {
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE,
+	top: "10dp",
+	bottom: "10dp"
+	// left: "10dp",
+	// right: "10dp"
+}
+
+".detail_image" : {
+	left: "10dp",
+	right:" 10dp"
+}
+
+".detail_label" : {
+	top: "10dp",
+	left: "10dp",
+	font: {
+		fontSize: 20
+	}
+}
+
+".detail_textarea" : {
+	left: "5dp",
+	font: {
+		fontSize: 16
+	}
+}
+
+"#link" : {
+	color : "blue",
+	left: "10dp"
+}

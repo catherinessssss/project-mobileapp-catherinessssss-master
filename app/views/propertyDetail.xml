@@ -1,0 +1,19 @@
+<Alloy>
+	<Window class="container" id="detail">
+			<RightNavButton platform=ios>
+                <Button title="Like/Unlike" onClick="showDialog" />
+            </RightNavButton>
+            <AlertDialog id="dialog" onClick="declareLike" title="Are you sure?" cancel="1">
+            	<ButtonNames>
+            		<ButtonName>Yes</ButtonName>
+            		<ButtonName>No</ButtonName>
+            	</ButtonNames>
+            </AlertDialog>
+			<ScrollView layout="vertical" >
+			<ImageView class="detail_image" image="{imageUrl}"/>
+			<Label class="detail_label" text="{title}"/>
+			<TextArea class="detail_textarea" editable="false" scrollable="false" value="Estate:{estate} \nRent: {rent} \nGross Area: {grossArea}"/>
+			<Label estate="{estate}" id="link" text="Address" touchEnabled="true" onClick="toMap"/>
+		</ScrollView>
+	</Window>
+</Alloy>

@@ -1,0 +1,412 @@
+
+11/13/2016, 9:14:35 AM
+
+Operating System
+  Name                        = Mac OS X
+  Version                     = 10.12
+  Architecture                = 64bit
+  # CPUs                      = 4
+  Memory                      = 8589934592
+
+Node.js
+  Node.js Version             = 4.6.0
+  npm Version                 = 2.15.9
+
+Titanium CLI
+  CLI Version                 = 5.0.9
+
+Titanium SDK
+  SDK Version                 = 5.5.1.GA
+  SDK Path                    = /Users/obzone/Downloads/mobilesdk-5/mobilesdk/osx/5.5.1.GA
+  Target Platform             = iphone
+
+Command
+  /usr/local/bin/node /Users/obzone/.appcelerator/install/5.5.1/package/node_modules/titanium/lib/titanium.js build run --platform ios --log-level trace --sdk 5.5.1.GA --project-dir /Users/obzone/project-mobileapp-catherinessssss --target simulator --ios-version 10.0 --device-family iphone --deploy-type development --sim-type iphone --sim-version 10.0 --device-id 342A72F4-3DA7-4E0C-B987-D9DBB5AFEC83 --skip-js-minify --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 49301 --config-file /var/folders/n1/kgn89nkj1dq3m4s6yv741c340000gn/T/build-1478999673598.json --no-banner --project-dir /Users/obzone/project-mobileapp-catherinessssss
+
+[TRACE]  [ioslib] Validating iOS Simulator UDID 342A72F4-3DA7-4E0C-B987-D9DBB5AFEC83
+[TRACE]  [ioslib] Found iOS Simulator UDID 342A72F4-3DA7-4E0C-B987-D9DBB5AFEC83
+[TRACE]  [ioslib] Selected iOS Simulator: iPhone 5s
+[TRACE]  [ioslib]   UDID    = 342A72F4-3DA7-4E0C-B987-D9DBB5AFEC83
+[TRACE]  [ioslib]   iOS     = 10.0
+[TRACE]  [ioslib] Autoselected Xcode: 8.0
+[DEBUG]  Detecting modules in /Users/obzone/Downloads/mobilesdk-5/modules
+[DEBUG]  Detected android module: facebook 5.2.0 @ /Users/obzone/Downloads/mobilesdk-5/modules/android/facebook/5.2.0
+[DEBUG]  Detected android module: ti.cloudpush 3.4.1 @ /Users/obzone/Downloads/mobilesdk-5/modules/android/ti.cloudpush/3.4.1
+[DEBUG]  Detected android module: ti.map 2.3.10 @ /Users/obzone/Downloads/mobilesdk-5/modules/android/ti.map/2.3.10
+[DEBUG]  Detected android module: ti.touchid 1.0.0 @ /Users/obzone/Downloads/mobilesdk-5/modules/android/ti.touchid/1.0.0
+[DEBUG]  Detected commonjs module: ti.cloud 3.2.11 @ /Users/obzone/Downloads/mobilesdk-5/modules/commonjs/ti.cloud/3.2.11
+[DEBUG]  Detected iphone module: com.appcelerator.urlSession 2.0.0 @ /Users/obzone/Downloads/mobilesdk-5/modules/iphone/com.appcelerator.urlSession/2.0.0
+[DEBUG]  Detected iphone module: facebook 5.2.7 @ /Users/obzone/Downloads/mobilesdk-5/modules/iphone/facebook/5.2.7
+[DEBUG]  Detected iphone module: ti.coremotion 2.0.0 @ /Users/obzone/Downloads/mobilesdk-5/modules/iphone/ti.coremotion/2.0.0
+[DEBUG]  Detected iphone module: ti.map 2.7.1 @ /Users/obzone/Downloads/mobilesdk-5/modules/iphone/ti.map/2.7.1
+[DEBUG]  Detected iphone module: ti.safaridialog 1.0.5 @ /Users/obzone/Downloads/mobilesdk-5/modules/iphone/ti.safaridialog/1.0.5
+[DEBUG]  Detected iphone module: ti.touchid 1.2.2 @ /Users/obzone/Downloads/mobilesdk-5/modules/iphone/ti.touchid/1.2.2
+[DEBUG]  Looking for Titanium module id=ti.cloud version=latest platform=commonjs deploy-type=development
+[INFO]   Found Titanium module id=ti.cloud version=3.2.11 platform=commonjs deploy-type=development path=/Users/obzone/Downloads/mobilesdk-5/modules/commonjs/ti.cloud/3.2.11
+[DEBUG]  Looking for Titanium module id=ti.map version=latest platform=iphone deploy-type=development
+[INFO]   Found Titanium module id=ti.map version=2.7.1 platform=iphone deploy-type=development path=/Users/obzone/Downloads/mobilesdk-5/modules/iphone/ti.map/2.7.1
+[DEBUG]  Detecting plugins in /Users/obzone/project-mobileapp-catherinessssss/plugins
+[DEBUG]  Detected plugin: ti.alloy @ /Users/obzone/project-mobileapp-catherinessssss/plugins/ti.alloy
+[DEBUG]  Looking for Titanium plugin id=ti.alloy version=1.0
+[INFO]   Found Titanium plugin id=ti.alloy version=1.0 
+[TRACE]  Snapshotting build directory
+[DEBUG]  Titanium SDK iOS directory: /Users/obzone/Downloads/mobilesdk-5/mobilesdk/osx/5.5.1.GA/iphone
+[INFO]   Deploy type: development
+[INFO]   Building for target: simulator
+[INFO]   Building using iOS SDK: 10.0
+[INFO]   Building for iOS Simulator: iPhone 5s
+[DEBUG]  UDID: 342A72F4-3DA7-4E0C-B987-D9DBB5AFEC83
+[DEBUG]  Simulator type: iphone
+[DEBUG]  Simulator version: 10.0
+[INFO]   Building for device family: iphone
+[DEBUG]  Setting Xcode target to Debug
+[DEBUG]  Setting Xcode build OS to iphonesimulator
+[DEBUG]  Xcode installation: /Applications/Xcode.app/Contents/Developer
+[DEBUG]  iOS WWDR certificate: installed
+[INFO]   Minimum iOS version: 8.0
+[INFO]   Debugging disabled
+[INFO]   Profiler disabled
+[INFO]   Set to copy files instead of symlinking
+[INFO]   Initializing the build directory
+[INFO]   Found Alloy app in /Users/obzone/project-mobileapp-catherinessssss/app
+[INFO]   Executing Alloy compile: /usr/local/bin/node /Users/obzone/.appcelerator/install/5.5.1/package/node_modules/alloy/bin/alloy compile /Users/obzone/project-mobileapp-catherinessssss/app --config platform=ios,version=0,simtype=none,devicefamily=iphone,deploytype=development,target=simulator --no-colors
+[DEBUG]         .__  .__                
+[DEBUG]  _____  |  | |  |   ____ ___.__.
+[DEBUG]  \__  \ |  | |  |  /  _ <   |  |
+[DEBUG]   / __ \|  |_|  |_(  <_> )___  |
+[DEBUG]  (____  /____/____/\____// ____|
+[DEBUG]       \/                 \/
+[DEBUG]  Alloy 1.9.2 by Appcelerator. The MVC app framework for Titanium.
+[DEBUG]  ----- CONFIGURATION -----
+[DEBUG]  raw config = "platform=ios,version=0,simtype=none,devicefamily=iphone,deploytype=development,target=simulator"
+[DEBUG]  platform = ios
+[DEBUG]  version = 0
+[DEBUG]  simtype = none
+[DEBUG]  devicefamily = iphone
+[DEBUG]  deploytype = development
+[DEBUG]  target = simulator
+[DEBUG]  project path = /Users/obzone/project-mobileapp-catherinessssss
+[DEBUG]  app path = /Users/obzone/project-mobileapp-catherinessssss/app
+[DEBUG]  
+[DEBUG]  ----- CONFIG.JSON -----
+[DEBUG]  dependencies = {}
+[INFO]   [config.json] config.json unchanged, using cached config.json...
+[DEBUG]  {
+[DEBUG]  "dependencies": {},
+[DEBUG]  "sourcemap": true,
+[DEBUG]  "autoStyle": false,
+[DEBUG]  "adapters": [
+[DEBUG]  "localStorage",
+[DEBUG]  "properties",
+[DEBUG]  "sql"
+[DEBUG]  ]
+[DEBUG]  }
+[DEBUG]  
+[DEBUG]  ----- CLEANING RESOURCES -----
+[DEBUG]  Removing orphaned controllers ...
+[DEBUG]  Removing orphaned models ...
+[DEBUG]  Removing orphaned styles ...
+[DEBUG]  Removing orphaned sync adapters...
+[TRACE]  * iphone/alloy/sync/sqlrest.js
+[DEBUG]  Removing orphaned assets and libs...
+[DEBUG]  
+[DEBUG]  ----- BASE RUNTIME FILES -----
+[TRACE]  SRC_DIR=/Users/obzone/.appcelerator/install/5.5.1/package/node_modules/alloy/Alloy/lib
+[TRACE]  Copying SRC_DIR/alloy/sync/sql.js --> Resources/iphone/alloy/sync/sql.js
+[TRACE]  Copying SRC_DIR/alloy/sync/properties.js --> Resources/iphone/alloy/sync/properties.js
+[TRACE]  Copying SRC_DIR/alloy/sync/localStorage.js --> Resources/iphone/alloy/sync/localStorage.js
+[TRACE]  Copying SRC_DIR/alloy/controllers/BaseController.js --> Resources/iphone/alloy/controllers/BaseController.js
+[TRACE]  Copying SRC_DIR/alloy/widget.js --> Resources/iphone/alloy/widget.js
+[TRACE]  Copying SRC_DIR/alloy/underscore.js --> Resources/iphone/alloy/underscore.js
+[TRACE]  
+[TRACE]  Generating ../../../../../../Users/obzone/project-mobileapp-catherinessssss/Resources/iphone/alloy.js
+[TRACE]  SRC_DIR=/Users/obzone/.appcelerator/install/5.5.1/package/node_modules/alloy/Alloy/common
+[TRACE]  Copying SRC_DIR/constants.js --> Resources/iphone/alloy/constants.js
+[TRACE]  
+[TRACE]  SRC_DIR=/Users/obzone/project-mobileapp-catherinessssss/app/assets
+[TRACE]  Copying SRC_DIR/alloy/sync/sqlrest.js --> Resources/iphone/alloy/sync/sqlrest.js
+[TRACE]  
+[DEBUG]  Resetting /Users/obzone/project-mobileapp-catherinessssss/platform/ios
+[DEBUG]  
+[DEBUG]  Resetting /Users/obzone/project-mobileapp-catherinessssss/i18n
+[DEBUG]  
+[INFO]   ----- MVC GENERATION -----
+[INFO]   [global style] loading from cache...
+[INFO]   [models/cm_property.js] model processing...
+[INFO]   [models/estates.js] model processing...
+[INFO]   [addressList.xml] view processing...
+[INFO]   style:      "addressList.tss"
+[INFO]   view:       "addressList.xml"
+[INFO]   controller: "addressList.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/addressList.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/addressList.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/addressList.js"
+[INFO]   [index.xml] view processing...
+[INFO]   style:      "index.tss"
+[INFO]   view:       "index.xml"
+[INFO]   controller: "index.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/index.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/index.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/index.js"
+[INFO]   [interestedProperties.xml] view processing...
+[INFO]   style:      "interestedProperties.tss"
+[INFO]   view:       "interestedProperties.xml"
+[INFO]   controller: "interestedProperties.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/interestedProperties.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/interestedProperties.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/interestedProperties.js"
+[INFO]   [itemsList.xml] view processing...
+[INFO]   style:      "itemsList.tss"
+[INFO]   view:       "itemsList.xml"
+[INFO]   controller: "itemsList.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/itemsList.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/itemsList.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/itemsList.js"
+[INFO]   [login.xml] view processing...
+[INFO]   style:      "login.tss"
+[INFO]   view:       "login.xml"
+[INFO]   controller: "login.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/login.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/login.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/login.js"
+[INFO]   [propertyDetail.xml] view processing...
+[INFO]   style:      "propertyDetail.tss"
+[INFO]   view:       "propertyDetail.xml"
+[WARN]   attribute "ios" missed quot(")!!
+[WARN]   @#[line:3,col:4]
+[INFO]   controller: "propertyDetail.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/propertyDetail.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/propertyDetail.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/propertyDetail.js"
+[INFO]   [propertyLocation.xml] view processing...
+[INFO]   style:      "propertyLocation.tss"
+[INFO]   view:       "propertyLocation.xml"
+[INFO]   controller: "propertyLocation.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/propertyLocation.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/propertyLocation.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/propertyLocation.js"
+[INFO]   
+[INFO]   [app.js] using cached app.js...
+[INFO]   
+[INFO]   ----- OPTIMIZING -----
+[INFO]   - alloy/moment.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/alloy.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/alloy/models/Cm_property.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/alloy/models/Estates.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/alloy/sync/localStorage.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/alloy/sync/properties.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/alloy/sync/sql.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/alloy/sync/sqlrest.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[TRACE]  
+[TRACE]  Benchmarking
+[TRACE]  ------------
+[TRACE]  [2.07179s] TOTAL
+[INFO]   
+[INFO]   Alloy compiled in 2.07179s
+[INFO]   Alloy compiler completed successfully
+[TRACE]  offline build file /var/folders/n1/kgn89nkj1dq3m4s6yv741c340000gn/T/build-24a433ca8b73e2e997623aaaa44b07e006223bed.json
+[TRACE]  online 1
+[TRACE]  optimizing build, last build was 771.236 sec ago
+[INFO]   Creating Xcode project
+[TRACE]  Removing pre-compile phase
+[TRACE]  Adding 1 native module library
+[TRACE]  No extensions to add
+[TRACE]  No change, skipping /Users/obzone/project-mobileapp-catherinessssss/build/iphone/project-mobileapp-catherinessssss.xcodeproj/project.pbxproj
+[INFO]   Creating Entitlements.plist
+[TRACE]  No change, skipping /Users/obzone/project-mobileapp-catherinessssss/build/iphone/project-mobileapp-catherinessssss.entitlements
+[INFO]   Creating Info.plist
+[DEBUG]  Checking for Splash Screen localization
+[INFO]   Disabling ATS
+[TRACE]  No change, skipping /Users/obzone/project-mobileapp-catherinessssss/build/iphone/Info.plist
+[INFO]   Creating main.m
+[TRACE]  No change, skipping /Users/obzone/project-mobileapp-catherinessssss/build/iphone/main.m
+[INFO]   Creating Xcode config files
+[TRACE]  No change, skipping /Users/obzone/project-mobileapp-catherinessssss/build/iphone/project.xcconfig
+[TRACE]  No change, skipping /Users/obzone/project-mobileapp-catherinessssss/build/iphone/module.xcconfig
+[INFO]   Copying Titanium libraries
+[TRACE]  No change, skipping /Users/obzone/project-mobileapp-catherinessssss/build/iphone/lib/libTiCore.a
+[TRACE]  No change, skipping /Users/obzone/project-mobileapp-catherinessssss/build/iphone/lib/libtiverify.a
+[TRACE]  No change, skipping /Users/obzone/project-mobileapp-catherinessssss/build/iphone/lib/libti_ios_debugger.a
+[TRACE]  No change, skipping /Users/obzone/project-mobileapp-catherinessssss/build/iphone/lib/libti_ios_profiler.a
+[INFO]   Copying Titanium iOS files
+[TRACE]  Skipping Classes/ApplicationRouting.m, it'll be processed later
+[TRACE]  No change, skipping /Users/obzone/project-mobileapp-catherinessssss/build/iphone/project_mobileapp_catherinessssss_Prefix.pch
+[TRACE]  No change, skipping /Users/obzone/project-mobileapp-catherinessssss/build/iphone/project-mobileapp-catherinessssss.xcodeproj/xcshareddata/xcschemes/project_mobileapp_catherinessssss.xcscheme
+[INFO]   Installing default LaunchScreen.storyboard
+[TRACE]  No change, skipping /Users/obzone/project-mobileapp-catherinessssss/build/iphone/LaunchScreen.storyboard
+[INFO]   Creating debugger and profiler plists
+[DEBUG]  Skipping /Users/obzone/project-mobileapp-catherinessssss/build/iphone/build/Products/Debug-iphonesimulator/project-mobileapp-catherinessssss.app/debugger.plist
+[DEBUG]  Skipping /Users/obzone/project-mobileapp-catherinessssss/build/iphone/build/Products/Debug-iphonesimulator/project-mobileapp-catherinessssss.app/profiler.plist
+[INFO]   Analyzing Resources directory
+[INFO]   Analyzing platform files
+[INFO]   Analyzing module files
+[INFO]   Analyzing localized launch images
+[INFO]   Analyzing CommonJS modules
+[INFO]   Creating asset catalog
+[TRACE]  No change, skipping /Users/obzone/project-mobileapp-catherinessssss/build/iphone/Assets.xcassets/Contents.json
+[INFO]   Creating app icon set
+[TRACE]  Found generated 58x58 app icon: /Users/obzone/project-mobileapp-catherinessssss/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small@2x.png
+[TRACE]  Found generated 87x87 app icon: /Users/obzone/project-mobileapp-catherinessssss/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small@3x.png
+[TRACE]  Found generated 80x80 app icon: /Users/obzone/project-mobileapp-catherinessssss/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40@2x.png
+[TRACE]  Found generated 120x120 app icon: /Users/obzone/project-mobileapp-catherinessssss/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40@3x.png
+[TRACE]  Found generated 120x120 app icon: /Users/obzone/project-mobileapp-catherinessssss/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-60@2x.png
+[TRACE]  Found generated 180x180 app icon: /Users/obzone/project-mobileapp-catherinessssss/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-60@3x.png
+[TRACE]  No change, skipping /Users/obzone/project-mobileapp-catherinessssss/build/iphone/Assets.xcassets/AppIcon.appiconset/Contents.json
+[INFO]   Creating launch logo image set
+[TRACE]  Found generated 320x320 launch logo: /Users/obzone/project-mobileapp-catherinessssss/build/iphone/Assets.xcassets/LaunchLogo.imageset/LaunchLogo~iphone.png
+[TRACE]  Found generated 374x374 launch logo: /Users/obzone/project-mobileapp-catherinessssss/build/iphone/Assets.xcassets/LaunchLogo.imageset/LaunchLogo@2x~iphone.png
+[TRACE]  Found generated 621x621 launch logo: /Users/obzone/project-mobileapp-catherinessssss/build/iphone/Assets.xcassets/LaunchLogo.imageset/LaunchLogo@3x~iphone.png
+[TRACE]  Found generated 384x384 launch logo: /Users/obzone/project-mobileapp-catherinessssss/build/iphone/Assets.xcassets/LaunchLogo.imageset/LaunchLogo~ipad.png
+[TRACE]  Found generated 1024x1024 launch logo: /Users/obzone/project-mobileapp-catherinessssss/build/iphone/Assets.xcassets/LaunchLogo.imageset/LaunchLogo@2x~ipad.png
+[TRACE]  No change, skipping /Users/obzone/project-mobileapp-catherinessssss/build/iphone/Assets.xcassets/LaunchLogo.imageset/Contents.json
+[INFO]   Creating launch image set
+[DEBUG]  Skipping iPad launch image: Resources/iphone/Default-Landscape.png
+[DEBUG]  Skipping iPad launch image: Resources/iphone/Default-Landscape@2x.png
+[DEBUG]  Skipping iPad launch image: Resources/iphone/Default-Portrait.png
+[DEBUG]  Skipping iPad launch image: Resources/iphone/Default-Portrait@2x.png
+[DEBUG]  Unsupported launch image Resources/iphone/Default.png, skipping
+[TRACE]  No change, skipping /Users/obzone/project-mobileapp-catherinessssss/build/iphone/Assets.xcassets/LaunchImage.launchimage/Contents.json
+[INFO]   App thinning disabled, skipping asset image sets
+[DEBUG]  Copying resources
+[TRACE]  No change, skipping /Users/obzone/project-mobileapp-catherinessssss/build/iphone/build/Products/Debug-iphonesimulator/project-mobileapp-catherinessssss.app/KS_nav_ui.png
+[DEBUG]  Overwriting /Users/obzone/project-mobileapp-catherinessssss/Resources/iphone/KS_nav_ui.png => /Users/obzone/project-mobileapp-catherinessssss/build/iphone/build/Products/Debug-iphonesimulator/project-mobileapp-catherinessssss.app/KS_nav_ui.png
+[TRACE]  No change, skipping /Users/obzone/project-mobileapp-catherinessssss/build/iphone/build/Products/Debug-iphonesimulator/project-mobileapp-catherinessssss.app/KS_nav_views.png
+[DEBUG]  Overwriting /Users/obzone/project-mobileapp-catherinessssss/Resources/iphone/KS_nav_views.png => /Users/obzone/project-mobileapp-catherinessssss/build/iphone/build/Products/Debug-iphonesimulator/project-mobileapp-catherinessssss.app/KS_nav_views.png
+[TRACE]  No change, skipping /Users/obzone/project-mobileapp-catherinessssss/build/iphone/build/Products/Debug-iphonesimulator/project-mobileapp-catherinessssss.app/KS_nav_home.png
+[DEBUG]  Overwriting /Users/obzone/project-mobileapp-catherinessssss/Resources/iphone/KS_nav_home.png => /Users/obzone/project-mobileapp-catherinessssss/build/iphone/build/Products/Debug-iphonesimulator/project-mobileapp-catherinessssss.app/KS_nav_home.png
+[TRACE]  No change, skipping /Users/obzone/project-mobileapp-catherinessssss/build/iphone/build/Products/Debug-iphonesimulator/project-mobileapp-catherinessssss.app/KS_nav_house.png
+[DEBUG]  Overwriting /Users/obzone/project-mobileapp-catherinessssss/Resources/iphone/KS_nav_house.png => /Users/obzone/project-mobileapp-catherinessssss/build/iphone/build/Products/Debug-iphonesimulator/project-mobileapp-catherinessssss.app/KS_nav_house.png
+[TRACE]  No change, skipping /Users/obzone/project-mobileapp-catherinessssss/build/iphone/build/Products/Debug-iphonesimulator/project-mobileapp-catherinessssss.app/KS_nav_map.png
+[DEBUG]  Overwriting /Users/obzone/project-mobileapp-catherinessssss/Resources/iphone/KS_nav_map.png => /Users/obzone/project-mobileapp-catherinessssss/build/iphone/build/Products/Debug-iphonesimulator/project-mobileapp-catherinessssss.app/KS_nav_map.png
+[TRACE]  No change, skipping /Users/obzone/project-mobileapp-catherinessssss/build/iphone/build/Products/Debug-iphonesimulator/project-mobileapp-catherinessssss.app/KS_nav_person.png
+[DEBUG]  Overwriting /Users/obzone/project-mobileapp-catherinessssss/Resources/iphone/KS_nav_person.png => /Users/obzone/project-mobileapp-catherinessssss/build/iphone/build/Products/Debug-iphonesimulator/project-mobileapp-catherinessssss.app/KS_nav_person.png
+[TRACE]  No change, skipping /Users/obzone/project-mobileapp-catherinessssss/build/iphone/build/Products/Debug-iphonesimulator/project-mobileapp-catherinessssss.app/KS_nav_price.png
+[DEBUG]  Overwriting /Users/obzone/project-mobileapp-catherinessssss/Resources/iphone/KS_nav_price.png => /Users/obzone/project-mobileapp-catherinessssss/build/iphone/build/Products/Debug-iphonesimulator/project-mobileapp-catherinessssss.app/KS_nav_price.png
+[TRACE]  No change, skipping /Users/obzone/project-mobileapp-catherinessssss/build/iphone/build/Products/Debug-iphonesimulator/project-mobileapp-catherinessssss.app/images/bedroom.png
+[DEBUG]  Overwriting /Users/obzone/project-mobileapp-catherinessssss/Resources/iphone/images/bedroom.png => /Users/obzone/project-mobileapp-catherinessssss/build/iphone/build/Products/Debug-iphonesimulator/project-mobileapp-catherinessssss.app/images/bedroom.png
+[TRACE]  No change, skipping /Users/obzone/project-mobileapp-catherinessssss/build/iphone/build/Products/Debug-iphonesimulator/project-mobileapp-catherinessssss.app/images/person_photo.png
+[DEBUG]  Overwriting /Users/obzone/project-mobileapp-catherinessssss/Resources/iphone/images/person_photo.png => /Users/obzone/project-mobileapp-catherinessssss/build/iphone/build/Products/Debug-iphonesimulator/project-mobileapp-catherinessssss.app/images/person_photo.png
+[TRACE]  No change, skipping /Users/obzone/project-mobileapp-catherinessssss/build/iphone/build/Products/Debug-iphonesimulator/project-mobileapp-catherinessssss.app/privateEstates.sqlite
+[DEBUG]  Overwriting /Users/obzone/project-mobileapp-catherinessssss/Resources/iphone/privateEstates.sqlite => /Users/obzone/project-mobileapp-catherinessssss/build/iphone/build/Products/Debug-iphonesimulator/project-mobileapp-catherinessssss.app/privateEstates.sqlite
+[DEBUG]  Overwriting /Users/obzone/project-mobileapp-catherinessssss/platform/ios/alloy_generated => /Users/obzone/project-mobileapp-catherinessssss/build/iphone/alloy_generated
+[TRACE]  No change, skipping /Users/obzone/project-mobileapp-catherinessssss/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-568h@2x.png
+[DEBUG]  Overwriting /Users/obzone/project-mobileapp-catherinessssss/Resources/iphone/Default-568h@2x.png => /Users/obzone/project-mobileapp-catherinessssss/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-568h@2x.png
+[TRACE]  No change, skipping /Users/obzone/project-mobileapp-catherinessssss/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-667h@2x.png
+[DEBUG]  Overwriting /Users/obzone/project-mobileapp-catherinessssss/Resources/iphone/Default-667h@2x.png => /Users/obzone/project-mobileapp-catherinessssss/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-667h@2x.png
+[TRACE]  No change, skipping /Users/obzone/project-mobileapp-catherinessssss/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape-736h@3x.png
+[DEBUG]  Overwriting /Users/obzone/project-mobileapp-catherinessssss/Resources/iphone/Default-Landscape-736h@3x.png => /Users/obzone/project-mobileapp-catherinessssss/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape-736h@3x.png
+[TRACE]  No change, skipping /Users/obzone/project-mobileapp-catherinessssss/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait-736h@3x.png
+[DEBUG]  Overwriting /Users/obzone/project-mobileapp-catherinessssss/Resources/iphone/Default-Portrait-736h@3x.png => /Users/obzone/project-mobileapp-catherinessssss/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait-736h@3x.png
+[TRACE]  No change, skipping /Users/obzone/project-mobileapp-catherinessssss/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default@2x.png
+[DEBUG]  Overwriting /Users/obzone/project-mobileapp-catherinessssss/Resources/iphone/Default@2x.png => /Users/obzone/project-mobileapp-catherinessssss/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default@2x.png
+[DEBUG]  Copying CSS files
+[INFO]   Processing JavaScript files
+[DEBUG]  Overwriting /Users/obzone/project-mobileapp-catherinessssss/Resources/iphone/alloy/CFG.js => /Users/obzone/project-mobileapp-catherinessssss/build/iphone/build/Products/Debug-iphonesimulator/project-mobileapp-catherinessssss.app/alloy/CFG.js
+[DEBUG]  Overwriting /Users/obzone/project-mobileapp-catherinessssss/Resources/alloy/moment.js => /Users/obzone/project-mobileapp-catherinessssss/build/iphone/build/Products/Debug-iphonesimulator/project-mobileapp-catherinessssss.app/alloy/moment.js
+[DEBUG]  Overwriting /Users/obzone/project-mobileapp-catherinessssss/Resources/iphone/app.js => /Users/obzone/project-mobileapp-catherinessssss/build/iphone/build/Products/Debug-iphonesimulator/project-mobileapp-catherinessssss.app/app.js
+[DEBUG]  Overwriting /Users/obzone/project-mobileapp-catherinessssss/Resources/iphone/alloy/backbone.js => /Users/obzone/project-mobileapp-catherinessssss/build/iphone/build/Products/Debug-iphonesimulator/project-mobileapp-catherinessssss.app/alloy/backbone.js
+[DEBUG]  Overwriting /Users/obzone/project-mobileapp-catherinessssss/Resources/iphone/alloy/constants.js => /Users/obzone/project-mobileapp-catherinessssss/build/iphone/build/Products/Debug-iphonesimulator/project-mobileapp-catherinessssss.app/alloy/constants.js
+[DEBUG]  Overwriting /Users/obzone/project-mobileapp-catherinessssss/Resources/iphone/alloy/controllers/BaseController.js => /Users/obzone/project-mobileapp-catherinessssss/build/iphone/build/Products/Debug-iphonesimulator/project-mobileapp-catherinessssss.app/alloy/controllers/BaseController.js
+[DEBUG]  Overwriting /Users/obzone/project-mobileapp-catherinessssss/Resources/iphone/alloy/controllers/addressList.js => /Users/obzone/project-mobileapp-catherinessssss/build/iphone/build/Products/Debug-iphonesimulator/project-mobileapp-catherinessssss.app/alloy/controllers/addressList.js
+[DEBUG]  Overwriting /Users/obzone/project-mobileapp-catherinessssss/Resources/iphone/alloy/controllers/index.js => /Users/obzone/project-mobileapp-catherinessssss/build/iphone/build/Products/Debug-iphonesimulator/project-mobileapp-catherinessssss.app/alloy/controllers/index.js
+[DEBUG]  Overwriting /Users/obzone/project-mobileapp-catherinessssss/Resources/iphone/alloy/controllers/interestedProperties.js => /Users/obzone/project-mobileapp-catherinessssss/build/iphone/build/Products/Debug-iphonesimulator/project-mobileapp-catherinessssss.app/alloy/controllers/interestedProperties.js
+[DEBUG]  Overwriting /Users/obzone/project-mobileapp-catherinessssss/Resources/iphone/alloy/controllers/itemsList.js => /Users/obzone/project-mobileapp-catherinessssss/build/iphone/build/Products/Debug-iphonesimulator/project-mobileapp-catherinessssss.app/alloy/controllers/itemsList.js
+[DEBUG]  Overwriting /Users/obzone/project-mobileapp-catherinessssss/Resources/iphone/alloy/controllers/login.js => /Users/obzone/project-mobileapp-catherinessssss/build/iphone/build/Products/Debug-iphonesimulator/project-mobileapp-catherinessssss.app/alloy/controllers/login.js
+[DEBUG]  Overwriting /Users/obzone/project-mobileapp-catherinessssss/Resources/iphone/alloy/controllers/propertyDetail.js => /Users/obzone/project-mobileapp-catherinessssss/build/iphone/build/Products/Debug-iphonesimulator/project-mobileapp-catherinessssss.app/alloy/controllers/propertyDetail.js
+[DEBUG]  Overwriting /Users/obzone/project-mobileapp-catherinessssss/Resources/iphone/alloy/controllers/propertyLocation.js => /Users/obzone/project-mobileapp-catherinessssss/build/iphone/build/Products/Debug-iphonesimulator/project-mobileapp-catherinessssss.app/alloy/controllers/propertyLocation.js
+[DEBUG]  Overwriting /Users/obzone/project-mobileapp-catherinessssss/Resources/iphone/alloy/models/Cm_property.js => /Users/obzone/project-mobileapp-catherinessssss/build/iphone/build/Products/Debug-iphonesimulator/project-mobileapp-catherinessssss.app/alloy/models/Cm_property.js
+[DEBUG]  Overwriting /Users/obzone/project-mobileapp-catherinessssss/Resources/iphone/alloy/models/Estates.js => /Users/obzone/project-mobileapp-catherinessssss/build/iphone/build/Products/Debug-iphonesimulator/project-mobileapp-catherinessssss.app/alloy/models/Estates.js
+[DEBUG]  Overwriting /Users/obzone/project-mobileapp-catherinessssss/Resources/iphone/alloy/styles/addressList.js => /Users/obzone/project-mobileapp-catherinessssss/build/iphone/build/Products/Debug-iphonesimulator/project-mobileapp-catherinessssss.app/alloy/styles/addressList.js
+[DEBUG]  Overwriting /Users/obzone/project-mobileapp-catherinessssss/Resources/iphone/alloy/styles/index.js => /Users/obzone/project-mobileapp-catherinessssss/build/iphone/build/Products/Debug-iphonesimulator/project-mobileapp-catherinessssss.app/alloy/styles/index.js
+[DEBUG]  Overwriting /Users/obzone/project-mobileapp-catherinessssss/Resources/iphone/alloy/styles/interestedProperties.js => /Users/obzone/project-mobileapp-catherinessssss/build/iphone/build/Products/Debug-iphonesimulator/project-mobileapp-catherinessssss.app/alloy/styles/interestedProperties.js
+[DEBUG]  Overwriting /Users/obzone/project-mobileapp-catherinessssss/Resources/iphone/alloy/styles/itemsList.js => /Users/obzone/project-mobileapp-catherinessssss/build/iphone/build/Products/Debug-iphonesimulator/project-mobileapp-catherinessssss.app/alloy/styles/itemsList.js
+[DEBUG]  Overwriting /Users/obzone/project-mobileapp-catherinessssss/Resources/iphone/alloy/styles/login.js => /Users/obzone/project-mobileapp-catherinessssss/build/iphone/build/Products/Debug-iphonesimulator/project-mobileapp-catherinessssss.app/alloy/styles/login.js
+[DEBUG]  Overwriting /Users/obzone/project-mobileapp-catherinessssss/Resources/iphone/alloy/styles/propertyDetail.js => /Users/obzone/project-mobileapp-catherinessssss/build/iphone/build/Products/Debug-iphonesimulator/project-mobileapp-catherinessssss.app/alloy/styles/propertyDetail.js
+[DEBUG]  Overwriting /Users/obzone/project-mobileapp-catherinessssss/Resources/iphone/alloy/styles/propertyLocation.js => /Users/obzone/project-mobileapp-catherinessssss/build/iphone/build/Products/Debug-iphonesimulator/project-mobileapp-catherinessssss.app/alloy/styles/propertyLocation.js
+[DEBUG]  Overwriting /Users/obzone/project-mobileapp-catherinessssss/Resources/iphone/alloy/sync/localStorage.js => /Users/obzone/project-mobileapp-catherinessssss/build/iphone/build/Products/Debug-iphonesimulator/project-mobileapp-catherinessssss.app/alloy/sync/localStorage.js
+[DEBUG]  Overwriting /Users/obzone/project-mobileapp-catherinessssss/Resources/iphone/alloy/sync/properties.js => /Users/obzone/project-mobileapp-catherinessssss/build/iphone/build/Products/Debug-iphonesimulator/project-mobileapp-catherinessssss.app/alloy/sync/properties.js
+[DEBUG]  Overwriting /Users/obzone/project-mobileapp-catherinessssss/Resources/iphone/alloy/sync/sql.js => /Users/obzone/project-mobileapp-catherinessssss/build/iphone/build/Products/Debug-iphonesimulator/project-mobileapp-catherinessssss.app/alloy/sync/sql.js
+[DEBUG]  Overwriting /Users/obzone/project-mobileapp-catherinessssss/Resources/iphone/alloy/sync/sqlrest.js => /Users/obzone/project-mobileapp-catherinessssss/build/iphone/build/Products/Debug-iphonesimulator/project-mobileapp-catherinessssss.app/alloy/sync/sqlrest.js
+[DEBUG]  Overwriting /Users/obzone/project-mobileapp-catherinessssss/Resources/iphone/alloy/underscore.js => /Users/obzone/project-mobileapp-catherinessssss/build/iphone/build/Products/Debug-iphonesimulator/project-mobileapp-catherinessssss.app/alloy/underscore.js
+[DEBUG]  Overwriting /Users/obzone/project-mobileapp-catherinessssss/Resources/iphone/alloy/widget.js => /Users/obzone/project-mobileapp-catherinessssss/build/iphone/build/Products/Debug-iphonesimulator/project-mobileapp-catherinessssss.app/alloy/widget.js
+[DEBUG]  Overwriting /Users/obzone/project-mobileapp-catherinessssss/Resources/iphone/alloy.js => /Users/obzone/project-mobileapp-catherinessssss/build/iphone/build/Products/Debug-iphonesimulator/project-mobileapp-catherinessssss.app/alloy.js
+[DEBUG]  Overwriting /Users/obzone/Downloads/mobilesdk-5/modules/commonjs/ti.cloud/3.2.11/ti.cloud.js => /Users/obzone/project-mobileapp-catherinessssss/build/iphone/build/Products/Debug-iphonesimulator/project-mobileapp-catherinessssss.app/ti.cloud.js
+[INFO]   Writing app properties
+[TRACE]  No change, skipping /Users/obzone/project-mobileapp-catherinessssss/build/iphone/build/Products/Debug-iphonesimulator/project-mobileapp-catherinessssss.app/_app_props_.json
+[DEBUG]  Using default application routing
+[TRACE]  No change, skipping /Users/obzone/project-mobileapp-catherinessssss/build/iphone/Classes/ApplicationRouting.m
+[INFO]   Writing i18n files
+[DEBUG]  Compiling localization files
+[DEBUG]  No i18n files to process
+[INFO]   Processing Titanium symbols
+[DEBUG]  Processing Titanium namespace resources
+[TRACE]  No change, skipping /Users/obzone/project-mobileapp-catherinessssss/build/iphone/build/Products/Debug-iphonesimulator/project-mobileapp-catherinessssss.app/modules/ui/images/badge.png
+[TRACE]  No change, skipping /Users/obzone/project-mobileapp-catherinessssss/build/iphone/build/Products/Debug-iphonesimulator/project-mobileapp-catherinessssss.app/modules/ui/images/closeButton.png
+[TRACE]  No change, skipping /Users/obzone/project-mobileapp-catherinessssss/build/iphone/build/Products/Debug-iphonesimulator/project-mobileapp-catherinessssss.app/modules/ui/images/photoDefault.png
+[TRACE]  No change, skipping /Users/obzone/project-mobileapp-catherinessssss/build/iphone/Classes/defines.h
+[INFO]   Removing files
+[DEBUG]  Removing empty directories
+[INFO]   Skipping xcodebuild
+[INFO]   Finished building the application in 3s 971ms
+[INFO]   Launching iOS Simulator
+[TRACE]  [ioslib] Selected iOS Simulator: iPhone 5s
+[TRACE]  [ioslib]   UDID    = 342A72F4-3DA7-4E0C-B987-D9DBB5AFEC83
+[TRACE]  [ioslib]   iOS     = 10.0
+[TRACE]  [ioslib] Autoselected Xcode: 8.0
+[TRACE]  [ioslib] Removing old log file: /Users/obzone/Library/Developer/CoreSimulator/Devices/342A72F4-3DA7-4E0C-B987-D9DBB5AFEC83/data/Containers/Data/Application/C5C90095-3BFA-457F-A6F4-CE790A52B79F/Documents/2bb1e7a1-42db-482a-9666-6644af938827.log
+[TRACE]  [ioslib] iPhone 5s Simulator already running with the correct udid
+[TRACE]  [ioslib] Tailing iPhone 5s Simulator system log: /Users/obzone/Library/Logs/CoreSimulator/342A72F4-3DA7-4E0C-B987-D9DBB5AFEC83/system.log
+[TRACE]  [ioslib] Running: osascript "/Users/obzone/Downloads/mobilesdk-5/mobilesdk/osx/5.5.1.GA/node_modules/ioslib/lib/sim_focus.scpt" "Simulator"
+[TRACE]  [ioslib] iPhone 5s Simulator successfully focused
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl install 342A72F4-3DA7-4E0C-B987-D9DBB5AFEC83 /Users/obzone/project-mobileapp-catherinessssss/build/iphone/build/Products/Debug-iphonesimulator/project-mobileapp-catherinessssss.app
+[TRACE]  [ioslib] App installed
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl launch 342A72F4-3DA7-4E0C-B987-D9DBB5AFEC83 property.com
+[TRACE]  [ioslib] App launched
+[TRACE]  [project-mobileapp-catherinessssss] objc[2921]: Class PLBuildVersion is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/PrivateFrameworks/AssetsLibraryServices.framework/AssetsLibraryServices (0x118ead910) and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/PrivateFrameworks/PhotoLibraryServices.framework/PhotoLibraryServices (0x118cd7210). One of the two will be used. Which one is undefined.
+[TRACE]  [project-mobileapp-catherinessssss] assertion failed: 16A323 14A345: libxpc.dylib + 62597 [37A9DF49-35C1-3D93-B854-B35CACF0100F]: 0x7d
+[TRACE]  [ioslib] Found application log file: /Users/obzone/Library/Developer/CoreSimulator/Devices/342A72F4-3DA7-4E0C-B987-D9DBB5AFEC83/data/Containers/Data/Application/6DF62DC4-9350-4D3D-9EFC-7C6BC9698430/Documents/2bb1e7a1-42db-482a-9666-6644af938827.log

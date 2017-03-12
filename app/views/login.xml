@@ -1,0 +1,9 @@
+<Alloy>
+	<Window id="login" class="container">
+		<View layout="vertical">
+			<TextField class="text_field"  focusable="true" hintText="Username" id="username"></TextField>
+			<TextField class="text_field" hintText="Password" passwordMask="true" id="password"></TextField>
+			<Button class="login_button" onClick="login">Login</Button>
+		</View>
+	</Window>
+</Alloy>

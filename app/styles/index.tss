@@ -1,0 +1,92 @@
+"Window": {
+	backgroundColor: "#fff",
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE,
+	top: "10dp",
+	bottom: "10dp",
+	left: "10dp",
+	right: "10dp"
+}
+
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000",
+	font: {
+		fontSize: 20,
+		fontFamily: 'Helvetica Neue'
+	},
+	textAlign: 'center'
+} 
+
+"TableView" : {
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE,
+}
+
+"TableViewRow": {
+	width: Titanium.UI.SIZE,
+	height: "300"
+}
+
+"View" : {
+	top: "10",
+	bottom: "10",
+	layout: "vertical",
+	borderColor:"gray",
+	borderRadius: "10",
+	borderWidth: "1"
+}
+
+"ImageView" : {
+	height: "180",
+	top: "10",
+	left:"10",
+	right:"10"
+}
+
+".property_title" : {
+	top: "10",
+	left: "15"
+}
+
+".property_text" : {
+	left:"10"
+}
+
+".section_header": {
+	borderWidth: "0"
+}
+
+".section_view" :{
+	backgroundColor:"#2a6496",
+	height:"30dp"
+	
+}
+
+".section_row" : {
+	height: Titanium.UI.SIZE,
+}
+
+".section_table" : {
+	height: Titanium.UI.FILL
+}
+
+".address_tableviewrow" : {
+	height: Titanium.UI.FILL,
+	left: "10dp"
+}
+
+".person_info": {
+	height: "120dp"
+}
+
+".person_image": {
+	width: Titanium.UI.SIZE,
+	height: "100dp",
+	left: "10dp"
+}
+
+".person_name": {
+	left:"10dp"
+}

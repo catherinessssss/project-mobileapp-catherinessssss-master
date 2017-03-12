@@ -1,0 +1,17 @@
+<Alloy>
+	<Collection src="cm_property"/>
+	<Window id="itemList" class="container">
+		<!-- <TableView dataCollection="cm_property" dataFilter="dataFilter">
+			<TableViewRow layout="vertical">
+				<Label class="item_title" text="{title}"></Label>
+			</TableViewRow>
+		</TableView> -->
+		
+		<ListView onItemclick="itemClicked"> 
+		    <ListSection layout="vertical" dataCollection="cm_property" dataFilter="dataFilter" dataTransform="transformFunction">
+		        <ListItem class="item_row" image="{imageUrl}" title="{title}" itemId="{id}">
+		        </ListItem>
+		    </ListSection>
+	    </ListView>
+	</Window>
+</Alloy>

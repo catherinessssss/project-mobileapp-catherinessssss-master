@@ -1,0 +1,11 @@
+
+".container" : {
+  
+}
+
+
+".item_row" :{
+	font: {
+		fontSize: 16
+	}
+}

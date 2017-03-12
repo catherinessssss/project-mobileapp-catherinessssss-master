@@ -1,0 +1,77 @@
+<Alloy>
+	<Collection src="cm_property"/>
+	<Collection src="estates"/>
+	<TabGroup>
+		<Tab title="Home" icon="KS_nav_home.png">
+			<Window title="Property">
+				<TableView dataCollection="cm_property" dataTransform="transformFunction">
+					<TableViewRow layout="vertical" onClick="goDetail" propertyId="{id}">
+						<View>
+							<ImageView image="{imageUrl}"/>
+							<Label class="property_title" text="{title}"></Label>
+							<TextArea class="property_text" editable="false" scrollable="false" value="Estate:{estate} \nRent: {rent} \nGross Area: {grossArea}"/>
+						</View>
+					</TableViewRow>
+				</TableView>
+			</Window>
+		</Tab>
+		<Tab title="Price" icon="KS_nav_price.png">
+			<Window title="Price">
+				<ListView class="section_table" onItemclick="filterByPrice"> 
+				    <ListSection>
+				    	<HeaderView class="section_header">
+		                	<View class="section_view">
+		                		<Label text="$15000-" color="#fff"></Label>
+		                	</View>
+			            </HeaderView>
+				        <ListItem class="section_row" image="images/bedroom.png" title="2 bedrooms-" />
+				        <ListItem class="section_row" image="images/bedroom.png" title="3 bedrooms+" />
+				    </ListSection>
+				    <ListSection>
+				    	<HeaderView class="section_header">
+		                	<View class="section_view">
+		                		<Label text="$15000-" color="#fff"></Label>
+		                	</View>
+			            </HeaderView>
+				        <ListItem class="section_row" image="images/bedroom.png" title="2 bedrooms-" />
+				        <ListItem class="section_row" image="images/bedroom.png" title="3 bedrooms+" />
+				    </ListSection>
+				</ListView>
+			</Window>
+		</Tab>
+		<Tab title="Address" icon="KS_nav_house.png">
+			<Window title="Address">
+				<TableView dataCollection="estates" dataTransform="addressTransform">
+					<TableViewSection  headerTitle="{section}">
+						<TableViewRow class="address_tableviewrow" estateName="{Name}" title="{Name}" onClick="addressClicked">
+						</TableViewRow>
+					</TableViewSection>
+					
+				</TableView>>
+			</Window>
+		</Tab>
+		<Tab title="Map" icon="KS_nav_map.png">
+			<Window navBarHidden="true" title="Map">
+				<Module module="ti.map" method="createView" userLocation="true" dataCollection="estates" dataTransform="mapTransform" onClick="mapClicked">
+				</Module>
+			</Window>
+		</Tab>
+		<Tab title="Personal" icon="KS_nav_person.png">
+			<Window title="Personal">
+				<ListView class="section_table" onItemclick="personItemsClicked">
+				    <ListSection>
+				    	<HeaderView>
+				    		<View class="person_info" layout="horizontal">
+				    			<ImageView class="person_image" image="images/person_photo.png"></ImageView>
+								<Label class="person_name" id="username"></Label>
+				    		</View>
+						</HeaderView>
+				        <ListItem class="section_row" title="Logoff/Login" itemId="login"/>
+				        <ListItem class="section_row" title="Interested Property" itemId="interested"/>
+				        <ListItem class="section_row" title="About Us"/>
+				    </ListSection>
+				</ListView>
+			</Window>
+		</Tab>
+	</TabGroup>
+</Alloy>

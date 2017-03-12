@@ -1,0 +1,22 @@
+
+".container" : {
+  	top:"10",
+	left:"10",
+	right:"10"
+}
+
+".text_field" : {
+	width: Titanium.UI.FILL,
+	height:"40",
+	bottom: "10",
+	borderStyle:Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+	color:"#336699"
+}
+
+".login_button" : {
+	width: Titanium.UI.FILL,
+	height: "40",
+	backgroundColor: "#336699",
+	color: "#fff",
+	borderRadius: "10"
+}
